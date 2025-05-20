@@ -60,6 +60,17 @@ pnpm dev
 - **Frontend:** `cd apps/portal-frontend && pnpm dev`
 - **Shared:** `cd packages/shared && pnpm dev`
 
+### Deploying to Cloudflare Workers
+
+The backend can be deployed to Cloudflare Workers using
+[Wrangler](https://developers.cloudflare.com/workers/wrangler/). A minimal
+`wrangler.toml` configuration lives in `infrastructure/wrangler.toml`.
+
+```bash
+pnpm build
+wrangler publish
+```
+
 ## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.

@@ -1,0 +1,7 @@
+name = "developer-portal"
+main = "../dist/apps/portal-backend/src/index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+API_HOST = "localhost"
+API_PORT = 3001
