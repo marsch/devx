@@ -1,0 +1,32 @@
+{
+  "name": "developer-portal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open-source, production-ready developer portal for API consumers",
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "keywords": [
+    "api",
+    "developer",
+    "portal",
+    "documentation",
+    "kong",
+    "okta",
+    "stripe"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
